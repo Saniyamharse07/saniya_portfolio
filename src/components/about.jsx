@@ -11,6 +11,7 @@ const About = () => {
     border: 4px solid cyan;
     box-shadow: 0px 0px 25px cyan;
     transition: transform 0.4s ease;
+    object-fit:cover ;
   }
   .profile-pic:hover {
     transform: scale(1.1);
@@ -18,12 +19,12 @@ const About = () => {
 `}</style>
 
       <img
-        src="/Purvaja.jpg"
-        alt="Purvaja Mandlik"
+        src="/Saniya.jpg"
+        alt="Saniya Mharase"
        className='profile-pic'
       />
       <p>
-        Hello! I’m <b>Purvaja Mandlik</b>, Third-Year B.Tech Computer Science & Engineering student at{' '}
+        Hello! I’m <b>Saniya Mharase</b>, Third-Year B.Tech Computer Science & Engineering student at{' '}
         <b>PCET’s Pimpri Chinchwad University</b>, Pune.  
         Skilled in <b>C++, Java, Python</b> and experienced with IoT, AR, and web development projects.  
         I enjoy problem-solving, teamwork, and exploring futuristic technology.
